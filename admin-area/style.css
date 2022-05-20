@@ -1,0 +1,22 @@
+ *{
+     margin: o;
+     padding: o;
+    box-sizing:border-box ;
+
+ }
+.logo
+{
+    width: 4%;
+    height: 4%;
+}
+.card-img-topard
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* .admin_image
+{
+    width: 100px;
+    object-fit: contain;
+} */

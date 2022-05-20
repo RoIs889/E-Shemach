@@ -1,0 +1,95 @@
+/* body {
+  background-color: #0e1725;
+  font-family: "Courier New", monospace;
+} */
+
+.form {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  width: 375px;
+  box-sizing: border-box;
+}
+form {
+  /* background:url('images/shopping-cart-supermarket-blurred-photo-store-bokeh-background_36051-129\ \(1\).png'); */
+  border: #000000;
+  background-color: #3535353b;
+  color: #ffffff;
+  /* background-size: cover;   */
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.alert {
+  background: #170e31;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 15px;
+  color: red;
+}
+.form h1 {
+  text-align: center;
+  color: rgb(235, 235, 235);
+  font-size: 25px;
+  padding: 0;
+  margin: 10px;
+}
+.form input,
+.form select {
+  width: 100%;
+  margin-bottom: 20px;
+  display: block;
+  height: 25px;
+  outline: #4e57ff;
+  border-radius: 7px;
+  border: none;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+/* button {
+  font-family: "Courier New", monospace;
+  display: block;
+  margin-top: auto;
+  background-color: #3f50ff;
+  border: none;
+  border-radius: 6px;
+  width: 100px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  margin-left: 35%;
+}
+button:hover {
+  background-color: #4157e5;
+  color: black;
+} */
+input {
+  color: rgb(255, 255, 255);
+  background-color: #fdfdfd80;
+  font-weight: bold;
+  font-size: 14px;
+}
+#log {
+  margin-right: 5px;
+}
+select {
+  background-color: #fdfdfd80;
+  color: #000000;
+  font-weight: bold;
+}
+option {
+  color: white;
+  background-color: #170e31;
+}
