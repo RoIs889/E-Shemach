@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  background: #0e1725;
+  transition: all 0.5s ease;
+}
+.sidebar.active {
+  width: 60px;
+}
+.sidebar .logo-details {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .logo-details .logo_name {
+  color: rgb(198, 227, 238);
+  font-size: 44px;
+  font-weight: bolder;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.sidebar .nav-links {
+  margin-top: 10px;
+  margin-left: -40px;
+}
+.sidebar .nav-links li {
+  position: relative;
+  list-style: none;
+  height: 40px;
+}
+.sidebar .nav-links li a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.sidebar .nav-links li a:hover {
+  background: #4585ff;
+}
+.sidebar .nav-links li i {
+  min-width: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.sidebar .nav-links li a .links_name {
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.sidebar .nav-links .log_out {
+  position: absolute;
+  bottom: 0;
+  width: 116%;
+}
