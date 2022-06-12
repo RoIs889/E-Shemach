@@ -1,2 +1,2 @@
-# E-Shemach
-Consumers(Shemachoch) Management Website
+# CCMS
+Consumer's Cooperative Management System
